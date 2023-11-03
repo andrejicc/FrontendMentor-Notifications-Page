@@ -18,9 +18,11 @@ function readAll(){
 }
 
 const divElements = Array.from(document.querySelectorAll('.notification-div'));
+const dotElements = Array.from(document.querySelectorAll('.dot'));
+
 
 function updateCount() {
-  const unreadDivs = divElements.filter(div => !div.classList.contains('readed'));
+  const unreadDivs = dotElements.filter(div => !div.classList.contains('read-dot'));
   number.textContent = unreadDivs.length;
 }
 
