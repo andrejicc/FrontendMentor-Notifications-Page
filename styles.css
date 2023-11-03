@@ -2,7 +2,7 @@
   margin: 0;
 }
 body{
-  background-color: rgba(170, 206, 248, 0.505);
+  background-color: rgb(237, 246, 255);
   font-size: 1.2rem;
   font-family: Outfit;
   display: grid;
@@ -48,7 +48,7 @@ body{
 }
 
 .notification-div{
-  background-color:hsl(221, 100%, 96%); 
+  background-color:hsla(203, 100%, 92%, 0.447); 
   margin-bottom: 8px;
   padding: 10px;
   border-radius: 10px;
