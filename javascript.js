@@ -10,7 +10,7 @@ let numberOfNotification = ''
 
 function readAll(){
   for(let i=0; i<nDivs.length; i++){
-    nDivs[i].classList.add('readed');
+    nDivs[i].style.backgroundColor = 'transparent';
     dots[i].classList.add('read-dot');
     nDivs[i].setAttribute("aria-label", "Notification has been read");
   }
