@@ -29,6 +29,7 @@ function clickHandler(i) {
         dots[i].classList.add('read-dot');
         nDivs[i].setAttribute("aria-label", "Notification has been read");
         nDivs[i].style.backgroundColor = 'transparent';
+        nDivs[i].style.boxShadow = 'none';
         // Remove the event listener from the clicked div
         divElements[i].removeEventListener('click', clickHandler(i));
 
