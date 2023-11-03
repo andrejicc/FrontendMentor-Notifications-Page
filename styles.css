@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: rgb(193, 222, 255);
+  font-size: 1.2rem;
+  font-family: Outfit;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.frame{
+  background-color:hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.notifications{
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.number-of-notifications{
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.number{
+  background-color: hsl(219, 85%, 26%);
+  color: rgb(192, 192, 192);
+  border-radius: 8px;
+  width: 40px;
+  height: 30px;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 0;
+}
+
+.read{
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+
+.notification-div{
+  background-color:hsl(210, 50%, 97%); 
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.name{
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+  margin-left: 0;
+}
+
+.link{
+  color: rgb(0, 0, 80);
+  font-weight: 700;
+}
+
+.avatar{
+  width: 60px;
+  margin-right: 20px;
+}
+
+.time{
+  margin-top: 4px;
+}
+
+.message{
+  border: 1px solid rgba(101, 101, 101, 0.26);
+  border-radius: 4px;
+  padding: 20px;
+  margin: auto;
+}
+.Rizky{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.avatar-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dot{
+  font-family: sans-serif;
+  color: red;
+  font-weight:900;
+  font-size: 1.2rem;
+}
+.image-chess{
+  margin-left: auto;
+  margin-right: 0;
+  width: 50px;
+  align-self: flex-end;
+}
+
+.name:hover,
+.link:hover,
+.message:hover,
+.image-chess:hover,
+button:hover{
+  cursor: pointer;
+}
+.message:hover{
+  background-color: rgba(205, 205, 205, 0.123);
+}
+
+.read{
+  background-color:hsl(0, 0%, 100%);
+}
+
+.read-dot{
+  visibility: hidden;
+}
+
