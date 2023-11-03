@@ -26,10 +26,9 @@ function updateCount() {
 
 function clickHandler(i) {
     return () => {
-        nDivs[i].classList.add('readed');
         dots[i].classList.add('read-dot');
         nDivs[i].setAttribute("aria-label", "Notification has been read");
-
+        nDivs[i].style.backgroundColor = 'transparent';
         // Remove the event listener from the clicked div
         divElements[i].removeEventListener('click', clickHandler(i));
 
@@ -43,6 +42,7 @@ divElements.forEach((div, i) => {
     div.setAttribute("role", "button");
     div.setAttribute("tabindex", "0");
     div.setAttribute("aria-label", "Unread Notification");
+    
 });
 
 updateCount();

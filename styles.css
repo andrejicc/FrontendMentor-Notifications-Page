@@ -119,10 +119,6 @@ button:hover{
   background-color: rgba(205, 205, 205, 0.123);
 }
 
-.read{
-  background-color:hsl(0, 0%, 100%);
-}
-
 .read-dot{
   visibility: hidden;
 }
